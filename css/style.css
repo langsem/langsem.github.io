@@ -26,15 +26,13 @@ body {
 	background-repeat: no-repeat;
 }
 
-.slides-navigation a.prev {
-	left: 20px;
-	background-image: url(../img/icons/prev.png);
-}
-
-.slides-navigation a.next {
-	right: 20px;
-	background-image: url(../img/icons/next.png);
-}
+.about-info {
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
 .titleMessage {
 	position: absolute;
