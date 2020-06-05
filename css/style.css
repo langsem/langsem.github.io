@@ -62,7 +62,8 @@ body {
 }
 
 .skillsSection,
-.contactSection {
+.contactSection,
+.bannerSection {
 	background-color: #71A596;
 	color: #fff;
 }
@@ -154,6 +155,23 @@ body {
 	font-size: 45px;
 	margin-left: -20%;
 	color: #ACD1B6;
+}
+
+.bannerSection .icons {
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+}
+
+.bannerSection .icons a {
+	padding: 10px;
+	color: white;
+
+}
+
+.bannerSection .icons a:hover {
+	color: #FDA696;
+
 }
 
 .contactButton {
